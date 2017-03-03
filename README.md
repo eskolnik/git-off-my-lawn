@@ -1,5 +1,4 @@
-This does absolutely nothing
-
 Now git off my lawn
 
-Thanks
+Thanks for nothing, you useless kids
+Take your toys with you
