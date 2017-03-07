@@ -1,0 +1,7 @@
+<h1>Lawns</h1>
+<%= render "new" %>
+<ul>
+<% @lawns.each do |lawn| %>
+  <li>Get off <%= lawn.name %>!!</li>
+<% end %>
+</ul>
