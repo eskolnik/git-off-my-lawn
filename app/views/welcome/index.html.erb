@@ -1,0 +1,9 @@
+<% if @name.downcase == "zombo" %>
+  <h1>Welcome to <%= @name %>'s Lawn!</h1>
+  <h3>This is <%= @name %>'s Lawn. Welcome!</h3>
+  <h4>You can do anything at <%= @name %>'s Lawn. Anything at all. The only limit is yourself.</h3>
+<% else %>
+  <h1>This is <%= @name %>'s lawn.</h1>
+  <h3 class="warning">PRIVATE PROPERTY. STAY OUT!</h3>
+<% end %>
+<%= link_to "New Lawn", lawns_path %>
