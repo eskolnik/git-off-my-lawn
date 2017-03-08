@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    @name = Lawn.owner
+    @name = Lawn.owner || "Nobody"
   end
 end
