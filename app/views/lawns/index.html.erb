@@ -3,6 +3,6 @@
 <%= link_to "Home", root_path %>
 <ul>
 <% @lawns.each do |lawn| %>
-  <li><%= lawn.name %></li>
+  <li><%= link_to lawn.name, lawn_path(lawn) %></li>
 <% end %>
 </ul>

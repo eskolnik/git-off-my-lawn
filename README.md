@@ -24,7 +24,7 @@ group :production do
 end
 ```
 
-`rails_12factor` is a Heroku gem that does 12 different things.
+`rails_12factor` is a Heroku gem that does a couple different things for you to make rails deployment more convenient.
 
 ##### `database.yml`
 
