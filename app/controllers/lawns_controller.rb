@@ -6,7 +6,7 @@ class LawnsController < ApplicationController
 
   def show
     @lawn = Lawn.find(params["id"])
-    # @name = @lawn.name
+    @name = @lawn.name
   end
 
   def create
